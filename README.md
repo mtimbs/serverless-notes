@@ -1,9 +1,22 @@
 ---
 coverY: 0
+description: Serverless is a software design paradigm
 ---
 
-# Welcome!
+# More than Infrastructure
 
-## Welcome aboard!
+* more than just lambda
+* complete design paradigm
+* rethink the way you architect the entire system
+* powerful elasticity - scale to 0 as well as ∞
+* infrastructure and code become tightly coupled and optimised together
 
-Welcome to the company wiki! Here you'll find everything you need to know about the company.
+
+
+
+
+
+
+
+
+###
