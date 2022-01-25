@@ -40,8 +40,9 @@
 
 ## Security
 
-* [Principle of Least Privelage](security/principle-of-least-privelage.md)
+* [Principle of Least Privilege](security/principle-of-least-privilege.md)
 * [Secrets and Environment Variables](security/secrets-and-environment-variables.md)
+* [Denial of Wallet](security/denial-of-wallet.md)
 
 ## Performance Tuning
 
@@ -60,6 +61,6 @@
 ## Global Scale
 
 * [Multi-region solutions](global-scale/multi-region-solutions.md)
-* [DynamoDB Replication Regions](global-scale/dynamodb-replication-regions.md)
+* [DynamoDB Global Tables](global-scale/dynamodb-global-tables.md)
 * [Regional APIs](global-scale/regional-apis.md)
 * [Route53 Latency Based Routing](global-scale/route53-latency-based-routing.md)
