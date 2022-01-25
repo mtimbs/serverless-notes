@@ -1,0 +1,2 @@
+# DynamoDB Replication Regions
+

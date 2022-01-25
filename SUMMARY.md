@@ -3,7 +3,9 @@
 * [More than Infrastructure](README.md)
   * [Holistic Thinking](more-than-infrastructure/holistic-thinking.md)
   * [Beyond ƛ](more-than-infrastructure/beyond.md)
-  * [Distributed Systems](more-than-infrastructure/distributed-systems.md)
+  * [Distributed Systems](more-than-infrastructure/distributed-systems/README.md)
+    * [Event-Driven Communication](more-than-infrastructure/distributed-systems/event-driven-communication.md)
+    * [No Shared Database](more-than-infrastructure/distributed-systems/no-shared-database.md)
 
 ## Lambda - The Basic Building Block of Serverless
 
@@ -12,7 +14,10 @@
 
 ## Testing and Developer Experience
 
-* [Page 4](testing-and-developer-experience/page-4.md)
+* [Common Failure Modes](testing-and-developer-experience/common-failure-modes.md)
+* [Abandon Local Environments](testing-and-developer-experience/abandon-local-environments.md)
+* [Unit Testing Lambdas](testing-and-developer-experience/unit-testing-lambdas.md)
+* [E2E Testing](testing-and-developer-experience/e2e-testing.md)
 
 ## API's that scale
 
@@ -23,30 +28,38 @@
 * [Handling Errors](apis-that-scale/handling-errors.md)
 * [Custom Authorizers](apis-that-scale/custom-authorizers.md)
 
-## DynamoDB
+## The Broader Serverless Ecosystem
 
-* [Page 2](dynamodb/page-2.md)
+* [DynamoDB](the-broader-serverless-ecosystem/dynamodb/README.md)
+  * [DynamoDB Streams](the-broader-serverless-ecosystem/dynamodb/dynamodb-streams.md)
+* [SNS](the-broader-serverless-ecosystem/sns.md)
+* [SQS](the-broader-serverless-ecosystem/sqs.md)
+* [CloudWatch](the-broader-serverless-ecosystem/cloudwatch.md)
+* [Cognito](the-broader-serverless-ecosystem/cognito.md)
+* [WAF](the-broader-serverless-ecosystem/waf.md)
 
-## SNS
+## Security
 
-* [Page 6](sns/page-6.md)
-
-## SQS
-
-* [Page 7](sqs/page-7.md)
+* [Principle of Least Privelage](security/principle-of-least-privelage.md)
+* [Secrets and Environment Variables](security/secrets-and-environment-variables.md)
 
 ## Performance Tuning
 
-* [Page 1](performance-tuning/page-1.md)
+* [Memory + Timeouts](performance-tuning/memory-+-timeouts.md)
+* [Custom Authorizers](performance-tuning/custom-authorizers.md)
+* [API Gateway Throttling](performance-tuning/api-gateway-throttling.md)
+* [Provisioned Concurrency](performance-tuning/provisioned-concurrency.md)
+* [Reserved Concurrency](performance-tuning/reserved-concurrency.md)
 
 ## Observability and Monitoring
 
-* [Page 3](observability-and-monitoring/page-3.md)
+* [Dead Letter Queues](observability-and-monitoring/dead-letter-queues.md)
+* [Error Logs](observability-and-monitoring/error-logs.md)
+* [CloudWatch Alarms](observability-and-monitoring/cloudwatch-alarms.md)
 
 ## Global Scale
 
 * [Multi-region solutions](global-scale/multi-region-solutions.md)
-
-## Microservices
-
-* [Page 5](microservices/page-5.md)
+* [DynamoDB Replication Regions](global-scale/dynamodb-replication-regions.md)
+* [Regional APIs](global-scale/regional-apis.md)
+* [Route53 Latency Based Routing](global-scale/route53-latency-based-routing.md)
